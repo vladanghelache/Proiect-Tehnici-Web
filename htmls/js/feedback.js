@@ -83,7 +83,7 @@ function feedback(){
                     vot_n.innerHTML='-';
                     vot_p.onclick=function(){
                         var x = new XMLHttpRequest();
-                        x.open("GET",'http://localhost:8080/cale2?tip_vot=pozitiv&'+"position="+String(o));
+                        x.open("GET",'http://localhost:8081/cale2?tip_vot=pozitiv&'+"position="+String(o));
                         x.onreadystatechange=function(){
                             if (x.readyState == 4 && x.status == 200)
                             {alert(x.responseText);}
@@ -94,7 +94,7 @@ function feedback(){
                     }
                     vot_n.onclick=function(){
                         var x = new XMLHttpRequest();
-                        x.open("GET",'http://localhost:8080/cale2?tip_vot=negativ&'+"position="+String(o));
+                        x.open("GET",'http://localhost:8081/cale2?tip_vot=negativ&'+"position="+String(o));
                         x.onreadystatechange=function(){
                             if (x.readyState == 4 && x.status == 200)
                             {alert(x.responseText);}
