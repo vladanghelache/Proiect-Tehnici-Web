@@ -1,0 +1,357 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Serghei Rachmaninov - Home</title>
+
+
+<link rel="shortcut icon" href="https://i.pinimg.com/474x/da/f6/06/daf606a37ae575dd3741503b8a6791ca.jpg">
+
+
+
+<link rel="stylesheet" href="css/site_home.css">
+
+<script src="https://kit.fontawesome.com/273694a54d.js" crossorigin="anonymous"></script>
+<script src="js/meniu.js"></script>
+<script src="js/homeJS.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<meta name="author" content="Anghelache Vlad-Alexandru">
+
+</head>
+
+<body>
+<div class="loader">
+<div class="note1">
+<i class='fas fa-music'></i>
+</div>
+<div class="note2">
+<i class='fas fa-music'></i>
+</div>
+<div class="note3">
+<i class='fas fa-music'></i>
+</div>
+<div class="note4">
+<i class='fas fa-music'></i>
+</div>
+<div class="note5">
+<i class='fas fa-music'></i>
+</div>
+</div>
+<header id="top">
+<div>
+<h1 class="first_name"><span>S</span><span>e</span><span>r</span><span>g</span><span>h</span><span>e</span><span>i</span></h1>
+<h1 class="a"><span id="R">R</span><span>a</span><span>c</span><span>h</span><span>m</span><span>a</span><span>n</span><span>i</span><span>n</span><span>o</span><span>v</span><h1>
+</div>
+<img src="https://cdn1.iconfinder.com/data/icons/music-hand-drawn-1/128/18-512.png">
+<audio id="music">
+	<source src="mp3/rachmaninov.mp3" type="audio/mpeg">
+</audio>
+</header>
+
+<div class="meniu">
+<ul>
+	<li class="dropdown">
+		<a class="active" href="site_home.html"><i class='fas fa-home'></i> <span>Home</span> <i class='fas fa-angle-down'></i></a>
+		<div class="dropdown-content">
+			<a href="#top"><i class='fas fa-arrow-alt-circle-up'></i> Top</a>
+			<a href="#section2"><i class='fas fa-scroll'></i> Biografie</a>
+			<a href="#section3"><i class='fas fa-calendar-alt'></i> Tabel cronologic</a>
+			<a href="#section4"><i class='fas fa-camera'></i> Galerie foto</a>
+			<a href="#bottom"><i class='fas fa-arrow-alt-circle-down'></i> Bottom</a>
+		</div>
+	</li>
+	<li class="dropdown">
+		<a class="menu_a" href="site_pag1.html"><i class='fas fa-pencil-alt'></i> <span>Compoziții</span> <i class='fas fa-angle-down'></i></a>
+		<div class="dropdown-content">
+			<a href="site_pag1.html#top"><i class='fas fa-arrow-alt-circle-up'></i> Top</a>
+			<a href="site_pag1.html#section1"><i class='fas fa-stream'></i> Lista compozițiilor</a>
+			<a href="site_pag1.html#section2"><i class='fas fa-chess-king'></i> Lucrări fundamentale</a>
+			<a href="site_pag1.html#bottom"><i class='fas fa-arrow-alt-circle-down'></i> Bottom</a>
+		</div>
+	</li>
+	<li class="dropdown">
+	<a class="menu_a" href="site_pag2.html"><i class='fas fa-record-vinyl'></i> <span>Înregistrări</span> <i class='fas fa-angle-down'></i></a>
+		<div class="dropdown-content">
+			<a href="site_pag2.html#top"><i class='fas fa-arrow-alt-circle-up'></i> Top</a>
+			<a href="site_pag2.html#section0"><i class='fas fa-record-vinyl'></i> Înregistrările lui Rachmaninov</a>
+			<a href="site_pag2.html#section1"><i class='fas fa-dot-circle'></i> Propriile lucrări</a>
+			<a href="site_pag2.html#section2"><i class='fas fa-dot-circle'></i> Liszt</a>
+			<a href="site_pag2.html#section3"><i class='fas fa-dot-circle'></i> Chopin</a>
+			<a href="site_pag2.html#bottom"><i class='fas fa-arrow-alt-circle-down'></i> Bottom</a>
+		</div>
+	</li>
+	<li class="dropdown">
+        <a class="menu_a" class="menu_a" href="Quiz.html"><i class='fas fa-anchor'></i> <span>Quiz</span> </a>
+    </li>
+</ul>
+<button id="play_audio">
+	<i class='fas fa-play' id="play"></i>
+	<i class='fas fa-pause' id="stop"></i>
+</button>
+</div>
+
+<div class="page_content">
+<section id="section1">
+<a href="https://upload.wikimedia.org/wikipedia/commons/b/be/Sergei_Rachmaninoff_cph.3a40575.jpg">
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Sergei_Rachmaninoff_cph.3a40575.jpg">
+</a>
+<figcaption>Serghei Rachmaninov, 1912</figcaption>
+</figure>
+
+
+<a href="https://upload.wikimedia.org/wikipedia/commons/b/bd/Rachmaninoff_signature_1899.jpg">
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Rachmaninoff_signature_1899.jpg">
+</a>
+<figcaption>Semnatura lui Serghei Rachmaninov</figcaption>
+</figure>
+
+<a href="https://upload.wikimedia.org/wikipedia/commons/8/88/Rachmaninoff_symphony_no.2_autograph_manuscript.png">
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Rachmaninoff_symphony_no.2_autograph_manuscript.png">
+</a>
+<figcaption>Manuscris „Simfonia nr.2”</figcaption>
+</figure>
+<button id='hide_img'>Ascunde imaginile</button>
+<br>
+<br>
+<input type="text" id="culoare" name="culoare">
+<button id='sch_culoare'>Schimba culoarea</button>
+</section>
+
+<section id="section2">
+<article>
+<p>
+<b>Serghei Vasilievici Rachmaninov</b> a fost un compozitor rus și, totodată, unul dintre cei mai influenți pianiști ai secolului al XX-lea. 
+</p>
+<h2><i class='fas fa-scroll'></i> Scurtă biografie</h2>
+<h3>Originea genealogică</h3>
+<p>
+Potrivit surselor rusești, Serghei Rachmaninov a fost un descendent al voievodului Moldovei, Ștefan cel Mare.
+Acesta a avut un fiu, Ioan Vecin, care s-a stabilit la Moscova, și care  a avut doi fii, Ioan Voloh și Vasilii Rahmanin. Familia Rachmaninov se trage din cel din urmă. 
+</p>
+<h3>Tinerețea</h3>
+<p>
+Serghei Rachmaninov s-a născut într-o familie aristocrată din Imperiul Rus, pe data de 1 Aprilie 1873.
+Atât tatăl său, Vasily Arkadyevich Rachmaninov, cât și mama sa, Lyubov Petrovna Butakova, erau pianiști amatori, fiind primii săi profesori.
+La 10 ani începe să studieze pianul la Conservatorul din Sankt Petersburg. În același an sora lui, Sofia, moare de difterie. Doi ani mai târziu, Rachmaninov suferă 
+o altă pierdere, și anume a surorii sale, Yelena, al cărei deces îl afectează și pe plan academic. Datorită acestui lucru, se mută la Conservatorul din Moscova, unde va compune primele sale piese.
+ 
+</p> 
+<h3>Depresia</h3>
+<p>
+La câțiva ani după ce Serghei Rachmaninov termină Conservatorul, compozitorul Tchaikovsky, unul dintre modele lui, moare, având un impact zdrobitor asupra sa. 
+Între anii 1895 și 1897 lucrează la Simfonia nr.1, care este aspru criticată în urma premierii din 28 martie 1897. Datorită acestui eșec, Rachmaninov cade în depresie, nereușind să mai compună lucrări majore în următorii 3 ani. Prin intermediul psihoterapiei și hipnoterapiei, reușește să depașească această perioadă, pentru ca în 1901 să aibe loc premiera Concertului pentru pian nr.2, una dintre cele mai reușite piese ale sale, bucurându-se de succes încă de la prima audiție.
+ 
+</p>
+<h3>Căsătoria</h3>
+<p>
+Pe data de 12 mai 1902, se căsătorește cu Natalia Satina, pe care o cunoscuse încă de când era la Conservatorul din Moscova.
+Au împreună două fiice: Tatiana Rachmaninova și Irina Rachmaninova. Pană la Revoluția Rusă, din decembrie 1917, Rachmaninov și familia sa trăiesc în Imperiul Rus, având succes atât pe plan atristic, cât și pe plan financiar. Datorită regimului politic nefavorabil care se instaurează în urma revoluției, Rachmaninov își pierde moșia, fapt ce îl determină să plece în Danemarca.
+</p>
+<h3>Emigrarea în SUA. Decesul</h3>
+<p>
+În 1918, Serghei Rachmaninov împreună cu familia emigrează în SUA, în orașul New York, unde este primit cu entuziasm de către muzicieni și artiști.
+Ajuns în Statele Unite, organizează o serie de concerte și recitale de pian, în această perioadă cunoscând apogeul în cariera sa de interpret.
+Printre cele mai importante compoziții pe care le-a scris în SUA, se număra  Rapsodie pe o Temă de Paganini și Simfonia nr.3. Datorită sănatății sale șubrede, Racmaninov este sfatuit de medicul său să se mute intr-o zonă cu climat mai cald. Astfel, se mută în California unde va susține ultimele sale concerte. În 1943 este diagnosticat cu melanom, care îi va cauza moartea în același an, pe data de 28 Martie 1943.
+</p>
+</article>
+<br>
+<br>
+<p>Select a font size:</p>
+<select id="marime" size="3">
+	<option>Mic</option>
+	<option>Mediu</option>
+	<option>Mare</option>
+</select>
+<br><br>
+<button id="reset">Reset size</button>
+</section>
+
+<section id="section3">
+
+<h2><i class='fas fa-calendar-alt'></i> Tabel cronologic</h2>
+<table>
+<tr>
+	<th>Anul</th>
+	<th>Eveniment</th>
+</tr>
+<tr>
+	<td>1873</td>
+	<td class="event">Rachmaninov se naște;</td>
+  </tr>
+ <tr>
+	<td>1883</td>
+	<td class="event">Începe să studieze pianul la Conservatorul din Sankt Petersburg;</td>
+  </tr>
+ <tr>
+	<td>1885</td>
+	<td class="event">Se transferă la Conservatorul din Moscova;</td>
+  </tr>
+  <tr>
+	<td>1891</td>
+	<td class="event">Are loc premiera „Concertului pentru pian nr.1”; </td>
+  </tr>
+    <tr>
+	<td>1892</td>
+	<td class="event">Rachmaninov termină Conservatorul; </td>
+  </tr>
+    <tr>
+	<td>1892</td>
+	<td class="event">Debutează ca pianist la Moscova;</td>
+  </tr>
+    <tr>
+	<td>1895</td>
+	<td class="event">Finalizează „Simfonia nr.1”;</td>
+  </tr>
+    <tr>
+	<td>1897</td>
+	<td class="event">Are loc premiera „Simfoniei nr.1”, în urma căteia compoziția este aspru criticată;</td>
+  </tr>
+    <tr>
+	<td>1901</td>
+	<td class="event">„Concertul pentru pian nr.2” este finalizat, premiera sa fiind un succes; </td>
+  </tr>
+    <tr>
+	<td>1902</td>
+	<td class="event">Se căsătorește cu Natalia Satina; </td>
+  </tr>
+    <tr>
+	<td>1903</td>
+	<td class="event">Compune „Variațiuni pe o Temă de Chopin”; </td>
+  </tr>
+    <tr>
+	<td>1904</td>
+	<td class="event">Rachmaninov câștigă Premiul „Glinka” pentru „Concertul pentru pian nr2”; </td>
+  </tr>
+   <tr>
+	<td>1908</td>
+	<td class="event">Are loc premiera „Simfoniei nr.2”; </td>
+  </tr>
+   <tr>
+	<td>1909</td>
+	<td class="event">Finalizează „Concertul pentru pian nr.3”; </td>
+  </tr>
+   <tr>
+	<td>1911</td>
+	<td class="event">Devine dirijorul Filarmonicii din Moscova;</td>
+  </tr>
+   <tr>
+	<td>1915</td>
+	<td class="event">Scrie cele „14 Romanțe (Op.34)”, dintre care, „Vocalise” va deveni una dintre cele mai populare piese scrise de el; </td>
+  </tr>
+    <tr>
+	<td>1917</td>
+	<td class="event">Parasește Imperiul Rus în urma revoluției și pleacă în Danemarca;  </td>
+  </tr>
+    <tr>
+	<td>1918</td>
+	<td class="event">Emigrează în SUA; </td>
+  </tr>
+    <tr>
+	<td>1922</td>
+	<td class="event">Susține concerte în Londra; </td>
+  </tr>
+    <tr>
+	<td>1926</td>
+	<td class="event">Finalizează „Concertul pentru pian nr.4”; </td>
+  </tr>
+   <tr>
+	<td>1934</td>
+	<td class="event">Compune „Rapsodia pe o Temă de Paganini”; </td>
+  </tr>
+    <tr>
+	<td>1936</td>
+	<td class="event">Compune „Simfonia nr.3”; </td>
+  </tr>
+    <tr>
+	<td>1943</td>
+	<td class="event">Rachmaninov este diagnosticat cu melanom și moare în același an. </td>
+  </tr>
+  
+</table>
+</section>
+
+<section id="section4">
+<h2><i class='fas fa-camera'></i> Galerie foto </h2>
+<div class="flex-container">
+<figure class="flex-item flex-item-1">
+	<a href="https://i.pinimg.com/originals/93/05/8e/93058eee097709bdc24e39b3d69d0594.jpg"><img src="https://i.pinimg.com/originals/93/05/8e/93058eee097709bdc24e39b3d69d0594.jpg" ></a>
+	<figcaption>Young Rachmaninoff and his dog</figcaption>
+</figure>
+
+
+
+<figure class="flex-item flex-item-2">
+	<a href="https://i.ytimg.com/vi/hcL8iqjHNPs/maxresdefault.jpg"><img src="https://i.ytimg.com/vi/hcL8iqjHNPs/maxresdefault.jpg"></a>
+	<figcaption>Sergei Rachmaninoff at The Villa Senar 1936</figcaption>
+</figure>
+
+
+
+<figure class="flex-item flex-item-3">
+	<a href="https://myleschuahiock.files.wordpress.com/2016/02/rach_6_b1.jpg"><img src="https://myleschuahiock.files.wordpress.com/2016/02/rach_6_b1.jpg"></a>
+	<figcaption>Portrait of Sergei Rachmaninoff</figcaption>
+</figure>
+
+
+
+<figure class="flex-item flex-item-4">
+	<a href="https://myleschuahiock.files.wordpress.com/2016/02/rach_5_b.jpg"><img src="https://myleschuahiock.files.wordpress.com/2016/02/rach_5_b.jpg"></a>
+	<figcaption>Rachmaninoff plays the piano with his granddaughter, Sofia</figcaption>
+</figure>
+
+
+
+<figure class="flex-item flex-item-5">
+	<a href="https://myleschuahiock.files.wordpress.com/2016/02/rach_4_b.jpg"><img src="https://myleschuahiock.files.wordpress.com/2016/02/rach_4_b.jpg"></a>
+	<figcaption>Rachmaninoff with his daughter, Irina</figcaption>
+</figure>
+
+
+
+<figure class="flex-item flex-item-6">
+	<a href="https://myleschuahiock.files.wordpress.com/2016/02/rach_1_b.jpg"><img src="https://myleschuahiock.files.wordpress.com/2016/02/rach_1_b.jpg" ></a>
+	<figcaption>Rachmaninoff as a young boy</figcaption>
+</figure>
+
+
+
+<figure class="flex-item flex-item-7">
+	<a href="https://www.capital.gr/images/2011-01/rachmaninoff_with_his_wife_natalia_1925.jpg"><img src="https://www.capital.gr/images/2011-01/rachmaninoff_with_his_wife_natalia_1925.jpg"></a>
+	<figcaption>Rachmaninoff with his wife, Natalia</figcaption>
+</figure>
+
+
+
+<figure class="flex-item flex-item-8">
+	<a href="https://pbs.twimg.com/media/C4axcYgXUAA_dpy.jpg"><img src="https://pbs.twimg.com/media/C4axcYgXUAA_dpy.jpg" ></a>
+	<figcaption>Rachmaninoff with his two daughters</figcaption>
+</figure>
+
+
+
+<figure class="flex-item flex-item-9">
+	<a href="https://i.pinimg.com/474x/e8/8b/80/e88b80d5b6ececbce285b355b1bda484--classical-music-orchestra.jpg"><img src="https://i.pinimg.com/474x/e8/8b/80/e88b80d5b6ececbce285b355b1bda484--classical-music-orchestra.jpg" ></a>
+	<figcaption>The only picture with Rachmaninoff in a concert</figcaption>
+</figure>
+
+</div>
+</section>
+
+</div>
+
+<footer id="bottom">
+<p>External links:</p>
+<div class="extlinks">
+<a href="https://open.spotify.com/artist/0Kekt6CKSo0m5mivKcoH51?si=gC-QhVJ_TpavTpGsBl5zdA"><i class="fab fa-spotify"></i></a>
+<a href="https://www.youtube.com/channel/UCfrio4LuWnwiHlOHMG3MK3g"><i class="fab fa-youtube"></i></a>
+<a href="https://en.wikipedia.org/wiki/Sergei_Rachmaninoff"><i class="fab fa-wikipedia-w"></i></a>
+</div>
+</footer>
+</body>
+</html> 
